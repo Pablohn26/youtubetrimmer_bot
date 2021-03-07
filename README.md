@@ -25,3 +25,7 @@ then run pipenv shell
 Finally run the bot with: 
 
 > pipenv run python bot.py
+
+### Using docker-compose
+
+> docker-compose up --build
