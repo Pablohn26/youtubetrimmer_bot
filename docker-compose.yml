@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  youtubetrimmer:
+    build:
+      context: .
+    volumes:
+      - .:/app/
+    command: python bot.py
